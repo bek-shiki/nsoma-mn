@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nsoma</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+    <main class="flex register=form">
+        <section id="registerImage">
+
+        </section>
+
+        <section>
+            <a href="./index.html">
+                <div id="registerLogo"></div>
+            </a>
+            <div>
+                <h3 class="font-bold m-1">Тавтай морилно уу</h3>
+                <p class="text-xs m-1 text-[#61676F]">Доор мэдээллээ оруулж нэвтэрнэ үү.</p>
+            </div>
+            <!-- Login form -->
+            <div class="register-form m-1">
+                <form class="space-y-6" action="#" method="POST">
+                    <!-- Login email -->
+                    <div>
+                        <div>
+                            <label for="email">И-Мэйл хаяг</label>
+                        </div>
+                        <div class="mt-2">
+                            <input type="email" name="email" id="emailLogin" required
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    <!-- Login password -->
+                    <div>
+                        <label for="password" class="block text-sm/6 font-medium text-gray-900">Нууц үг давтах</label>
+                        <div class="mt-2">
+                            <input type="password" name="password" id="passwordrepeat" autocomplete="current-password"
+                                required
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+
+                    <div
+                        class="text-center w-full bg-slate-700 text-white hover:bg-white hover:border-[#151f29] border border-solid hover:text-[#151f29] transition-all duration-400 cursor-pointer p-[15px] rounded-[10px]">
+                        <button type="submit">Нэвтрэх</button>
+                    </div>
+
+                    <div
+                        class="text-center mt-4 text-black hover:bg-slate-700 hover:text-white bg-[#f2f3f4] w-full py-3 rounded-lg text-medium cursor-pointer">
+                        <button type="submit">Бүртүүлэх</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

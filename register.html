@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSoma</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="flex register=form">
+        <section id="registerImage">
+
+        </section>
+
+        <section id="register">
+            <a href="./index.html">
+                <div id="registerLogo"></div>
+            </a>
+            <div class="register-description">
+                <h3 class="font-bold m-1">БҮРТГЭЛ ҮҮСГЭХ</h3>
+                <p class="text-xs m-1 text-[#61676F]">Мэдээллээ үнэн зөв оруулж бүртгэл үүсгэнэ үү. Нэр, овгоо кириллээр
+                    бичнэ үү.</p>
+            </div>
+            <!-- Register form -->
+            <div class="register-form m-1">
+                <form class="space-y-6" action="#" method="POST">
+                    <!-- Register firstname -->
+                    <div>
+                        <div>
+                            <label for="firstname">Нэр</label>
+                        </div>
+                        <div class="mt-2">
+                            <input type="text" name="firstname" id="firstname" required placeholder="Нэр"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    <!-- Register lastname -->
+                    <div>
+                        <label for="lastname">Овог</label>
+                        <div class="mt-2">
+                            <input type="text" name="lastname" id="lastname" required placeholder="Овог"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    <!-- Register email -->
+                    <div>
+                        <label for="email" class="block text-sm/6 font-medium text-gray-900">И-мэйл хаяг</label>
+                        <div class="mt-2">
+                            <input type="email" name="email" id="email" autocomplete="email" required
+                                placeholder="И-мэйл хаяг"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    <!-- Register nationality -->
+                    <div>
+                        <label for="nationality">Иргэншил</label>
+                        <div class="mt-2">
+                            <select name="nationality" id="nationality" required
+                                class="block w-full rounded-md  bg-white px-3 py-2 text-xs text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                                <option value="" disabled selected>Иргэншил</option>
+                                <option value="mongolia">Монгол</option>
+                                <option value="foreign">Гадаад</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Register password  -->
+                    <div>
+                        <label for="password" class="block text-sm/6 font-medium text-gray-900">Нууц үг</label>
+                        <div class="mt-2">
+                            <input type="password" name="password" id="password" autocomplete="current-password"
+                                required placeholder="Нууц үг"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    <!-- Register password repeat -->
+                    <div>
+                        <label for="password" class="block text-sm/6 font-medium text-gray-900">Нууц үг давтах</label>
+                        <div class="mt-2">
+                            <input type="password" name="password" id="passwordrepeat" autocomplete="current-password"
+                                required placeholder="Нууц үг давтах"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+
+                    <div
+                        class="text-center bg-slate-700 text-white hover:bg-[white] hover:border-[#151f29] border border-solid hover:text-[#151f29] transition-all duration-400 cursor-pointer p-[10px] rounded-[10px]">
+                        <button type="submit">Бүртүүлэх</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
